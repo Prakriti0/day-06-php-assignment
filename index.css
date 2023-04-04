@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: aqua;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +13,39 @@ body{
    display: flex;
    flex-direction: column;
    justify-content: center;
-  border: 1px solid black;
+  border: 1px white;
   padding: 20px;
-  height: 250px;
+  height: fit-content;
   width: 40vw;
+  background-color: white;
+}
+.main h4,h1,p{
+    color: blue;
+}
+.main button{
+    border: 1px black;
+    background-color: blue;
+    color: white;
+}
+.main button:hover{
+    color: red;
+}
+.main a{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}
+.create p{
+    border: 1px white;
+    padding: 10px;
+    background-color: Green;
+    color: white;
+    height: fit-content;
+    width: fit-content;
 }
 input[type="text"],input[type="password"], button{
     padding: 20px;
@@ -30,12 +59,96 @@ p{
     display: flex;
     justify-content: center;
 }
-.container{
+.main2{
+    background-color: whitesmoke;
     border: 1px solid black;
+    border-radius: 5px;
     height: 250px;
-    width:40vw;
+     width: 40vw;
 }
-img{
-    height: 100px;
-    width: 100px;
+.container{
+    margin-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px black;
+    border-radius: 5px;
+    height: 50px;
+    width:40vw;
+    background-color:white;
+}
+.container h1{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .container a {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    background-color:blue;
+    color:white;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px blue;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container2 h2{
+    display: flex;
+    justify-content: center;
+}
+.container2 p{
+    color: black;
+}
+.box{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+.box2 p{
+ position: relative;
+ top: 105px;
+ right: 100px;
+
+}
+.box img{
+    margin-left: 75px;
+    height:105px;
+    width: 20%;
+    border: 1px blue;
+    border-radius: 100px;
+}
+.main3{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 250px;
+     width: 40vw;
+
+}
+.container3{
+   border: 1px dotted blue;
+}
+.container3 h1{
+    color: red;
+}
+.container4{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.container4 a{
+    border: 1px  black;
+    padding: 10px;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+   background-color: blue;
+   color: white;
+   
 }

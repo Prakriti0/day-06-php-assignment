@@ -10,11 +10,19 @@
 <body>
     <form action="home.php" method="get">
         <div class="main">
-        <input type="text" name="Username" placeholder="Username"> <br>
-         <input type="password" name="Password" placeholder="Password"> <br>
-          <button>LOG IN</button>
+            <h1><u>Facebook</u></h1> 
+            <p>Connect with friends and the world around you on the Facebook.</p> <hr>
+            <label for="username">Mobile number or email address</label>
+        <input type="text" name="Username" placeholder=" Enter your mobile number or email address"> <br>
+        <label for="passwaord">Password</label>
+         <input type="password" name="Password" placeholder="Enter your password"> <br>
+          <button><b>Log In</b></button>
+          <h4>Forgotten password?</h4>
+          <div class="create">
+            <p><b> Create New Account</b></p>
+          </div>
+          <a href="https://prakritilimbu.com.np/"><b>&#169; PRAKRITI   LIMBU</b></a>
         </div>
-        <p>	&#169;<b>PRAKRITI</b></p>
     </form>
 </body>
 </html>
