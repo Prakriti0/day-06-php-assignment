@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  border: 1px solid black;
+  padding: 20px;
+  height: 250px;
+  width: 40vw;
+}
+input[type="text"],input[type="password"], button{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+form{
+    border: 1px solid black;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid black;
+    height: 250px;
+    width:40vw;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
